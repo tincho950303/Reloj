@@ -1,0 +1,61 @@
+.container {
+    display: grid;
+    width: 40vw;
+    gap: 10px;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: 1fr;
+    margin: 10px;  
+}
+
+
+.fecha-ahora{
+    padding: 10px;
+    border: .5px solid #ebe4e430;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+.fecha-ahora .reloj {
+    font-size: 50px;
+    font-family:Tahoma, sans-serif;
+}
+.fecha-ahora .diaRestante {
+    color: rgba(81, 166, 138, 0.756);
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.hoja {  
+    background-color: var(--colorPtrans);
+    color: #000000af;
+    border: .5px solid #ebe4e430;
+    border-radius: 5px;
+    
+    width: 100%;
+    
+    overflow: hidden;
+    padding: 20px;
+    
+        
+}
+
+.hoja .titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hoja hr {
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.hoja .titulo .icono {
+    width: 50px;
+
+}
+

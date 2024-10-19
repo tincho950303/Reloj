@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    --colorP : #1f0828;
+    --colorSec : #161616;
+    --colorPtrans : #f4a658c8;
+    --colorW: #f2f2e7;
+    --colorDegra: linear-gradient(to right, var(--colorP), var(--colorSec));    
+}
+
+body {
+    font-family:'Arial', sans-serif;
+    background-image: var(--colorDegra);    
+    font-size: 15px;    
+    color: var(--colorW);
+}
